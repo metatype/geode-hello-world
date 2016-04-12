@@ -26,11 +26,10 @@ apply plugin: 'idea'
 apply plugin: 'wrapper'
 
 repositories {
-  mavenLocal()
   mavenCentral()
 }
 
 dependencies {
-  compile 'org.apache.geode:geode-core:1.0.0-incubating.M2'
+  compile 'org.apache.geode:gemfire-core:1.0.0-incubating.M1'
   testCompile 'junit:junit:4.+'
 }
