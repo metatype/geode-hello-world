@@ -13,7 +13,7 @@ This project shows a simple HelloWorld client application using Geode.  The appl
 
 3. Start the Geode cluster with `./build/install/geode-hello-world/bin/geode-ctl start`.
 
-4. Run the HelloWord application by invoking `./gradlew run`.
+4. Run the HelloWorld application by invoking `./gradlew run`.
 
 5. Shutdown the Geode cluster with `./build/install/geode-hello-world/bin/geode-ctl stop`.
 
