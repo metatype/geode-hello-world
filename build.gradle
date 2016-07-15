@@ -27,9 +27,10 @@ apply plugin: 'wrapper'
 
 repositories {
   mavenCentral()
+  //maven { url 'https://repository.apache.org/content/repositories/orgapachegeode-1006' }
 }
 
 dependencies {
-  compile 'org.apache.geode:gemfire-core:1.0.0-incubating.M1'
+  compile 'org.apache.geode:geode-core:1.0.0-incubating.M3'
   testCompile 'junit:junit:4.+'
 }
